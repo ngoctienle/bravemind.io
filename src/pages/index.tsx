@@ -11,7 +11,7 @@ export default function Home() {
       <section className='py-10'>
         <div className='container'>
           <div className='mt-10'>
-            <h2 className='flex flex-col text-6xl font-extrabold gap-4 text-light-text-1'>
+            <h2 className='flex flex-col text-6xl font-extrabold gap-4 text-light-text-1 main-title'>
               <span>Navigate The Market</span>
               <span>With Confidence</span>
             </h2>
@@ -19,15 +19,15 @@ export default function Home() {
               Learn ICT concepts with a community of like-minded individuals.
             </p>
           </div>
-          <div className='mt-5'>
+          <div className='mt-[50px]'>
             <div className='flex gap-2 items-center'>
               <HiOutlineGift className='w-4 h-4 md:w-5 md:h-5 text-light-blue' />
               <p className='text-sm text-light-text-1'>Start Your Trading Journey</p>
             </div>
-            <Link href='/login' className='inline-block mt-5'>
+            <Link href='/login' className='inline-block mt-4'>
               <Button
                 className={twclsx(
-                  'h-12 bg-light-blue transition-colors relative justify-start w-[180px] group hover:bg-light-blue-hover px-5 text-light-white rounded-lg'
+                  'h-[60px] bg-light-blue transition-colors relative justify-start w-[200px] group hover:bg-light-blue-hover px-5 text-light-white rounded-lg'
                 )}
               >
                 Join Now

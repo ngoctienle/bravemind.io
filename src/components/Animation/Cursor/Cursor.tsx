@@ -130,7 +130,7 @@ export default function Cursor({
 
   useEffect(() => {
     const clickables = document.querySelectorAll<HTMLElement>(
-      'a, input[type="submit"], input[type="image"], label[for], select, button'
+      'a, input[type="submit"], input[type="image"], label[for], iframe, select, button, .main-title'
     )
     clickables.forEach((el) => {
       el.style.cursor = 'none'

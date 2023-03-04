@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  body {
+    @apply cursor-none scroll-py-4 bg-theme-50 text-light-text-1  antialiased scrollbar scrollbar-track-transparent scrollbar-thumb-slate-400 scrollbar-thumb-rounded-lg scrollbar-w-1;
+  }
+
+  html.dark {
+    @apply cursor-none brightness-[0.98];
+  }
+  body *,
+  html * {
+    @apply cursor-none;
+  }
+}

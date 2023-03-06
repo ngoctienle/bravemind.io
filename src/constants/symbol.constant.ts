@@ -28,3 +28,5 @@ export const DEFAULT_SYMBOL: SymbolWGs = [
     title: 'EUR/USD'
   }
 ]
+
+export const SYMBOL = ['BTCUSDT', 'ETHUSDT', 'TRXUSDT', 'SOLUSDT', 'XPRUSDT', 'DOGEUSDT', 'LTCUSDT']

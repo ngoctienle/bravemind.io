@@ -12,6 +12,7 @@ const config = {
     '@/libs/(.*)$',
     '@/types/(.*)$',
     '@/constants/(.*)$',
+    '@/reducers/(.*)$',
     '@/components/*/(.*)$',
     '@/components/(.*)$'
   ],
